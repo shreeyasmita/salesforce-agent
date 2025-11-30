@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenAiPlugin xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <canEscalate>false</canEscalate>
+    <description>This topic is selected when there are requests related to managing employee schedules, such as creating or updating work shifts.</description>
+    <developerName>p_16jdL000002Gs4v_Employee_Schedule_Management</developerName>
+    <genAiFunctions>
+        <functionName>EmployeeCopilot__GetPolicyDetails</functionName>
+    </genAiFunctions>
+    <genAiFunctions>
+        <functionName>EmployeeCopilot__GetSecurityAlerts</functionName>
+    </genAiFunctions>
+    <genAiFunctions>
+        <functionName>EmployeeCopilot__AnswerQuestionsWithKnowledge</functionName>
+    </genAiFunctions>
+    <genAiPluginInstructions>
+        <description>If the query is about employee schedule policies, use EmployeeCopilot__GetPolicyDetails.</description>
+        <developerName>instruction_0</developerName>
+        <language xsi:nil="true"/>
+        <masterLabel>instruction_0</masterLabel>
+        <sortOrder>0</sortOrder>
+    </genAiPluginInstructions>
+    <genAiPluginInstructions>
+        <description>If there are security concerns related to schedules, use EmployeeCopilot__GetSecurityAlerts.</description>
+        <developerName>instruction_1</developerName>
+        <language xsi:nil="true"/>
+        <masterLabel>instruction_1</masterLabel>
+        <sortOrder>0</sortOrder>
+    </genAiPluginInstructions>
+    <language>en_US</language>
+    <localDeveloperName>p_16jdL000002Gs4v_Employee_Schedule_Management</localDeveloperName>
+    <masterLabel>Employee Schedule Management</masterLabel>
+    <pluginType>Topic</pluginType>
+    <scope>Your job is to only assist with automating and managing employee schedules by providing relevant policy details and addressing scheduling issues. You are not authorized to approve or deny time-off requests.</scope>
+</GenAiPlugin>

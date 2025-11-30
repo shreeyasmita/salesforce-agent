@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenAiPlugin xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <canEscalate>false</canEscalate>
+    <description>This topic is chosen when there is a need to track and analyze guest feedback to ensure high service standards.</description>
+    <developerName>p_16jdL000002Gs4v_Service_Quality_Monitoring</developerName>
+    <genAiFunctions>
+        <functionName>DataCloudAgent__CdpRtdgStatus</functionName>
+    </genAiFunctions>
+    <genAiFunctions>
+        <functionName>EmployeeCopilot__AnswerQuestionsWithKnowledge</functionName>
+    </genAiFunctions>
+    <genAiPluginInstructions>
+        <description>If feedback data needs to be analyzed, use DataCloudAgent__CdpRtdgStatus to fetch relevant insights.</description>
+        <developerName>instruction_0</developerName>
+        <language xsi:nil="true"/>
+        <masterLabel>instruction_0</masterLabel>
+        <sortOrder>0</sortOrder>
+    </genAiPluginInstructions>
+    <language>en_US</language>
+    <localDeveloperName>p_16jdL000002Gs4v_Service_Quality_Monitoring</localDeveloperName>
+    <masterLabel>Service Quality Monitoring</masterLabel>
+    <pluginType>Topic</pluginType>
+    <scope>Your job is to only assist in monitoring service quality by analyzing guest feedback and identifying trends. You are not able to directly address complaints or suggest operational changes.</scope>
+</GenAiPlugin>
